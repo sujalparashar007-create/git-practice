@@ -1,0 +1,33 @@
+| Command Name             | Command Format                                       | Command Meaning                                      |
+| ------------------------ | ---------------------------------------------------- | ---------------------------------------------------- |
+| Initialize Repository    | `git init`                                           | Creates a new Git repository in the current folder.  |
+| Check Status             | `git status`                                         | Shows the current state of files and changes.        |
+| Add All Files            | `git add .`                                          | Adds all files to the staging area.                  |
+| Add Specific File        | `git add <filename>`                                 | Adds a specific file to the staging area.            |
+| Commit Changes           | `git commit -m "message"`                            | Saves staged changes as a commit.                    |
+| View Commit History      | `git log --oneline`                                  | Displays a short history of commits.                 |
+| View Differences         | `git diff`                                           | Shows changes made to files.                         |
+| Create Branch            | `git branch <branch-name>`                           | Creates a new branch.                                |
+| List Branches            | `git branch`                                         | Displays all local branches.                         |
+| Switch Branch            | `git checkout <branch-name>`                         | Moves to another branch.                             |
+| Create and Switch Branch | `git checkout -b <branch-name>`                      | Creates and switches to a new branch.                |
+| Clone Repository         | `git clone <repository-url>`                         | Creates a local copy of a GitHub repository.         |
+| Add Remote Repository    | `git remote add origin <repository-url>`             | Connects a local repository to GitHub.               |
+| View Remote Repository   | `git remote -v`                                      | Shows the connected remote repository URLs.          |
+| Get Origin URL           | `git remote get-url origin`                          | Displays the URL of the `origin` remote.             |
+| Push Changes             | `git push origin main`                               | Uploads commits to the remote repository.            |
+| First-Time Push          | `git push -u origin main`                            | Pushes code and sets the upstream branch.            |
+| Pull Changes             | `git pull origin main`                               | Downloads and merges changes from GitHub.            |
+| Fetch Changes            | `git fetch`                                          | Downloads changes without merging them.              |
+| Configure Username       | `git config --global user.name "Name"`               | Sets the Git username.                               |
+| Configure Email          | `git config --global user.email "email@example.com"` | Sets the Git email address.                          |
+| View Configuration       | `git config --list`                                  | Displays Git configuration settings.                 |
+| Create Alias             | `git config --global alias.st status`                | Creates a shortcut command.                          |
+| Show Aliases             | `git config --global --get-regexp alias`             | Displays configured aliases.                         |
+| Remove Remote            | `git remote remove origin`                           | Removes the connection to a remote repository.       |
+| Change Remote URL        | `git remote set-url origin <repository-url>`         | Changes the remote repository URL.                   |
+| Go Back One Directory    | `cd ..`                                              | Moves to the parent directory.                       |
+| Go to Home Directory     | `cd` or `cd ~`                                       | Moves to the user's home directory.                  |
+| Show Current Directory   | `pwd`                                                | Displays the current working directory.              |
+| List Files               | `ls`                                                 | Displays files and folders in the current directory. |
+| Exit Git Bash            | `exit`                                               | Closes the Git Bash terminal.                        |
